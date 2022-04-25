@@ -11,9 +11,8 @@ import (
 	"github.com/gin-gonic/gin"
 	_ "github.com/joho/godotenv/autoload"
 
-	kafkaexample "github.com/friendsofgo/kafka-example/pkg"
-"github.com/abaron10/kafkaIntegration/pkg/kafka"
-	"github.com/friendsofgo/kafka-example/pkg/kafka"
+	kafkaexample "github.com/abaron10/kafkaIntegration/pkg"
+	"github.com/abaron10/kafkaIntegration/pkg/kafka"
 )
 
 type Request struct {
